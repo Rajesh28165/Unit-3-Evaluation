@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #192842;
+    color:white;
+}
+
+body{
+    background-color: rgb(5, 5, 43);
+}
+
+.navbaar {
+    display: flex;
+    justify-content: space-between;
+    width:1104px;
+    height: 80px;
+    margin-top: 62px;
+    margin-left: 168px;
+    border: 1px;
+    border-radius: 48px;
+    color:white;
+}
+
+.nav1{
+    width:825.92px;
+    height: 40px;
+    gap:6px;
+    display:flex
+}
+
+.Home, .Documentation, .Blogs, .LYNC, .Request {
+    height: 40px;
+    padding: 10px 14px 10px 14px;s
+}
+
+.nav_button {
+    width: 131px;
+    height: 40px;
+    background-color: white;
+    color:black;
+    padding: 8px 14px 8px 14px;
+    border-radius: 20px;
+}
+
+.Suite {
+    text-align: center;
+    margin-top: 80px;
+}
+.Product-Suite {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+
+.Suite span {
+    color:#3F37C9
+}
+
+.wallet {
+    background-color: #020617;
+}
+
+
+/* believers */
+
+.believers{
+    width: 90%;
+}
+.believers h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.believers span {
+    color:blue;
+}
+
+.believers .images {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+}
+
+
+.chain h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.chain span {
+    color: #3F37C9;
+}
+
+.chain .chain_items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+
+.blog{
+    text-align: center;
+    margin-top: 50px;
+}
+.brac{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.foot {
+    margin: 15px auto;
+    width: 85%;
+}
+
+.text_foot {
+    text-align: center;
+    font-size:x-large ;
+    font-weight: 900;
+    margin-top: 40px;
+    color: white;
+}
+
+.text_foot button {
+    background-color: #3F37C9;
+    margin-top: 20px;
+    padding: 8px 14px 8px 14px;
+    border:none;
+    border-radius: 20px;
+}
+
+.left_foot{
+    width: 202px;
+    height: 139px;
+    border: 1px 0px 0px 0px;
+}
+
+.searchbaar{
+    width:303px;
+    height: 53.02px;
+    padding: 9.51px 11.09px 9.51px 11.09px;
+    gap: 6.34px;
+    border-radius: 25.35px 0px 0px 0px;
+    border: 0.79px 0px 0px 0px;
+    display: flex;
+}
+
+.bottom{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top:1px solid rgb(77, 91, 100)
+}
+
+.searchbaar input{
+    background-color: #293e66;
+    padding:5px;
+    width:100%;
+    border:none;
+    border-radius: 15px;
+}
+
+.searchbaar button{
+    background-color: #3F37C9;
+    min-width: 95.05px;
+    padding: 9.51px 12.67px 9.51px 12.67px;
+    gap: 6.34px;
+    border-radius: 25px;
+}
+.icons i {
+    padding:10px;
+    border-radius: 50%;
+    border:0.3px solid rgb(99,98,98);
+    margin:10px 4px;
+}
+
+.foot_logo {
+    margin-top: 40px;
+}
+
+.middle_foot{
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.middle_foot p{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right_foot {
+    margin-top: 40px;
+}
+
+.right_foot h2 {
+    font-size: large;
+    font-weight: 600;
+}
+
+.right_foot p {
+    font-size: small;
+    font-weight: 400;
+    color:gray;
+}
+
+.align_foot {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.des h4{
+    font-size: large;
+}
+
+@media (max-width:760px) {
+    .Product-Suite, .chain_items, .brac, .images {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:480px) {
+    .Product-Suite, .chain_items, .brac, .images {
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+}
